@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="da">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="author" content="">
+  <meta name="description" content="">
+  <meta name="keywords" content="">
+  <title>INDSÆT TITEL</title>
+  <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+  <div class="ct" id="t1">
+    <div class="ct" id="t2">
+      <div class="ct" id="t3">
+        <div class="ct" id="t4">
+          <div class="ct" id="t5">
+            <ul id="menu">
+              <a href="#t1">
+                <li class="icon fa fa-bolt big-font-nav" id="uno">Forside</li>
+              </a>
+              <p class="big-font-nav">Project:</p>
+              <a href="#t2">
+
+                <li class="icon fa fa-keyboard-o" id="dos">myFSTVL</li>
+              </a>
+              <a href="#t3">
+                <li class="icon fa fa-rocket" id="tres">Clean Sneaks</li>
+              </a>
+              <a href="#t4">
+                <li class="icon fa fa-dribbble" id="cuatro">Creative Coding</li>
+              </a>
+            </ul>
+            <div class="page" id="p1">
+              <section class="icon fa fa-bolt loading_cont">
+                <h1>MATIAS <br> SKØDT</h1>
+
+                <svg version="1.1" xmlns="http://www.w3.org/2000/svg" id="loader">
+                  <defs>
+                    <filter id="goo">
+                      <feGaussianBlur in="SourceGraphic" result="blur" stdDeviation="10" />
+                      <feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 18 -7" result="goo" />
+                      <feBlend in2="goo" in="SourceGraphic" result="mix" />
+                    </filter>
+                    <linearGradient id="MyGradient">
+                      <stop offset="5%" stop-color="#40204c" />
+                      <stop offset="40%" stop-color="#a3225c" />
+                      <stop offset="100%" stop-color="#e24926" />
+                    </linearGradient>
+                  </defs>
+                  <mask id="maska">
+                    <g class="blobs">
+                      <circle class="blob z-index-minus" cx="440" cy="250" r="50" transform="rotate(0) translate(0, 0) rotate(0)" />
+                      <circle class="blob" cx="500" cy="320" r="90" transform="rotate(0) translate(0, 0) rotate(0)" />
+                      <circle class="blob" cx="300" cy="390" r="120" transform="rotate(0) translate(0, 0) rotate(0)" />
+                      <circle class="blob" cx="380" cy="390" r="100" transform="rotate(0) translate(0, 0) rotate(0)" />
+                      <circle class="blob" cx="470" cy="450" r="80" transform="rotate(0) translate(0, 0) rotate(0)" />
+                    </g>
+                  </mask>
+                  <rect mask="url(#maska)" fill="url(#MyGradient)">
+                </svg>
+
+              </section>
+            </div>
+            <div class="page" id="p2">
+              <section class="icon fa fa-keyboard-o"><span class="title">Type</span></section>
+            </div>
+            <div class="page" id="p3">
+              <section class="icon fa fa-rocket"><span class="title">Rocket</span></section>
+            </div>
+            <div class="page" id="p4">
+              <section class="icon fa fa-dribbble">
+                <span class="title">Dribbble</span>
+                <p class="hint">
+                  <a href="https://dribbble.com/albertohartzet" target="_blank">Im ready to play, <span class="hint line-trough">invite me </span> find me</a>
+                </p>
+                <p class="hint">Already invited by <a href="http://www.dribbble.com/mrpeters" target="_blank">Stan Peters</a></p>
+              </section>
+            </div>
+            <div class="page" id="p5">
+              <section class="icon fa fa-plus-circle">
+                <span class="title">More</span>
+                <p class="hint">
+                  <span>You love one page & CSS only stuff? </span><br />
+                  <a href="https://codepen.io/hrtzt/details/pgXMYb/" target="_blank">check this pen "Pure CSS One page vertical navigation"</a>
+                </p>
+              </section>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.2/TweenMax.min.js"></script>
+  <script src="greensock-js/src/esm/TweenMax.js"></script>
+  <script src="greensock-js/src/minified/TweenMax.min.js"></script>
+  <script src="greensock-js/src/uncompressed/TweenMax.js"></script>
+  <script src="javascript/javascript.js"></script>
+
+
+</body>
+
+</html>
